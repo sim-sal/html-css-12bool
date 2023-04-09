@@ -1,5 +1,3 @@
-/* DEBUG */
-
 [class*="col"]{
     min-height: 50px;
     background-color: rgb(0, 18, 250);
@@ -38,6 +36,11 @@
     background-color: rgb(0, 224, 101);
     flex-basis: calc((95% / 12) * 8);
     max-width: calc((95% / 12) * 8);
+}
+
+/* regole seconda sezione  */
+.section-2{
+    margin-top: 20px;
 }
 
 

@@ -1,0 +1,44 @@
+/* DEBUG */
+
+[class*="col"]{
+    min-height: 50px;
+    background-color: rgb(0, 18, 250);
+    color: white;
+    border: solid 1px #fff;
+}
+
+.text{
+    font-size: 14px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* regole nasted */
+
+[class*="nested"]{
+    margin: 10px 2px;
+    
+}
+
+.nested-2{
+    background-color: rgb(0, 224, 101);
+    flex-basis: calc((95% / 12) * 2);
+    max-width: calc((95% / 12) * 2);
+}
+
+.nested-6{
+    background-color: rgb(0, 224, 101);
+    flex-basis: calc((95% / 12) * 6);
+    max-width: calc((95% / 12) * 6);
+}
+
+.nested-8{
+    background-color: rgb(0, 224, 101);
+    flex-basis: calc((95% / 12) * 8);
+    max-width: calc((95% / 12) * 8);
+}
+
+
+

@@ -37,3 +37,21 @@
     flex-basis: calc((95% / 12) * 8);
     max-width: calc((95% / 12) * 8);
 }
+
+/* regole seconda sezione */
+.section-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.double-height{
+    min-height: 100px;
+}
+
+.text-2{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}

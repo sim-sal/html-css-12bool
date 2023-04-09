@@ -20,6 +20,12 @@
     border: none;
 }
 
+.nested-2{
+    background-color: rgb(0, 224, 101);
+    flex-basis: calc((95% / 12) * 2);
+    max-width: calc((95% / 12) * 2);
+}
+
 .nested-3{
     background-color: rgb(0, 224, 101);
     flex-basis: calc((95% / 12) * 3);
